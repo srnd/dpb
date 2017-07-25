@@ -20,8 +20,8 @@ program
 const DeployBot = require('./lib/deploybot'),
       deploybot = new DeployBot(config.subdomain, config.apiKey)
 
-if(fs.existsSync(path.join(__dirname, ".dpb"))) {
-  var envConfig = JSON.parse(fs.readFileSync(path.join(__dirname, ".dpb")))
+if(fs.existsSync(path.join(process.cwd(), ".dpb"))) {
+  var envConfig = JSON.parse(fs.readFileSync(path.join(process.cwd(), ".dpb")))
 
   console.log("Deploying...".yellow)
   

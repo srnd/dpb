@@ -81,7 +81,7 @@ deploybot.repositories()
     console.log(`\nGenerating dpb in current directory for repo ${finalRepo.title.green} with environment ${env.name.green}.`)
 
     try {
-      fs.writeFileSync(path.join(__dirname, ".dpb"), JSON.stringify({
+      fs.writeFileSync(path.join(process.cwd(), ".dpb"), JSON.stringify({
         environmentId: env.id,
         repositoryId: finalRepo.id
       }))
