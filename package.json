@@ -1,14 +1,22 @@
 {
   "name": "dpb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dpb.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "deploybot",
+    "deployments",
+    "cli"
+  ],
+  "author": "TJ Horner <tjhorner@srnd.org>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srnd/dpb"
+  },
   "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.11.0",
