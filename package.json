@@ -1,11 +1,8 @@
 {
   "name": "dpb",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "dpb.js",
-  "scripts": {
-    "postinstall": "echo \"dpb is installed! Run `dpb login` to log into DeployBot.\""
-  },
   "keywords": [
     "deploybot",
     "deployments",
