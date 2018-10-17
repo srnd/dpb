@@ -61,7 +61,7 @@ deploybot.repositories()
       console.log("Available environments:")
 
       environments.entries.forEach((env, index) => {
-        console.log(`${index}: ${env.title}`)
+        console.log(`${index}: ${env.name}`)
       })
 
       return new Promise((resolve, reject) => {
